@@ -1,9 +1,11 @@
 ﻿{
+	"language.name": "English",
+	"language.region": "United States",
+	"language.code": "en_us",
 	"item.minecraft.wooden_sword": "Wooden Club",
 	"item.minecraft.stone_sword": "Stone Club",
 	"item.minecraft.redstone": "Redstone Dust",
 	"block.minecraft.redstone_block": "Redstone Block",
 	"item.minecraft.chainmail_helmet": "Chainmail Cap",
-	"item.minecraft.chainmail_chestplate": "Chainmail Hauberk",
-	
+	"item.minecraft.chainmail_chestplate": "Chainmail Hauberk"
 }
