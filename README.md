@@ -8,11 +8,14 @@ Originally created by SMP.
 [New Minecraft Forums thread](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/2822930-new-release-smps-revival-fan-continuation-1-12)
 
 [Direct Download (auto-updated within minutes of commits on this repository)](http://revival.akenland.com/downloads/revival.zip)
-*Designed for 1.12. Should be somewhat version-independent when used with OptiFine. 1.13 compatibility is a huge work-in-progress.*
+*Designed for 1.12, but also works on 1.13. Full 1.13 compatibility is a work-in-progress.*
 
 Maintained by the staff of the Akenland server and conmunity contributions - http://revival.akenland.com
 
 # 1.13 Update
+EDIT: I've just tested the pack and it's completely functional in 1.13, without any changes needed. Minecraft will warn you it's incompatible, but it turns out, if you choose to load it anyways, that the game has an undocumented feature: backwards compatibility. It will automatically convert the pack to be usable, with the exception of CTM. So, the core functionality of the pack is already fine in 1.13 - but we'll keep working on adding full support for it, including CTM.
+
+Original message: 
 I know we've been extremely quiet for the past while. I've been quite busy lately, and while I know a few people have updated the pack themselves (there's even one listed up in Pull Requests), I wanted to take the time and do this in the best way possible.
 
 With the Flattening in 1.13 changing a large amount of texture/block names, I am currently working on making the pack as version-independent as possible. This means it should be (mostly) usable on a wide variety of Minecraft versions, including 1.6 to 1.12 (pre-Flattening), 1.13, and future updates.
