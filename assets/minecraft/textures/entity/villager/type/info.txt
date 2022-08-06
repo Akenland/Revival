@@ -1,0 +1,2 @@
+Moved the headwear of the desert type up one pixel to reveal villagers eyes.
+Not in the SMP style, but adjusted to be playable with the SMP villagers skin texture
