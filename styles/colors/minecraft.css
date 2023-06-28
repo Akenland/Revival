@@ -1,0 +1,22 @@
+/* Minecraft colour codes */
+
+html {
+    /* &0 - &9 */
+    --mc-black: #000;
+    --mc-dark-blue: #00a;
+    --mc-dark-green: #0a0;
+    --mc-dark-aqua: #0aa;
+    --mc-dark-red: #a00;
+    --mc-dark-purple: #a0a;
+    --mc-gold: #fa0;
+    --mc-gray: #aaa;
+    --mc-dark-gray: #555;
+    --mc-blue: #55f;
+    /* &a - &f */
+    --mc-green: #5f5;
+    --mc-aqua: #5f5;
+    --mc-red: #f55;
+    --mc-light-purple: #f5f;
+    --mc-yellow: #ff5;
+    --mc-white: #fff;
+}
