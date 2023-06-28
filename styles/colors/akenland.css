@@ -1,0 +1,26 @@
+/* Akenland colour codes */
+
+html {
+    /* SMP's Revival */
+    --revival-oak: #4E3C2D;
+    --revival-spruce: #493C2F;
+    --revival-dark-oak: #3A2B26;
+}
+
+/* Farthing colors */
+
+.waramon {
+    color: var(--mc-dark-green);
+}
+
+.eborin {
+    color: var(--mc-dark-aqua);
+}
+
+.sholkingham {
+    color: var(--mc-dark-red);
+}
+
+.runnach {
+    color: var(--mc-gold);
+}
