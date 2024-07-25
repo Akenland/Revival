@@ -1,6 +1,7 @@
 {
   "pack": {
     "pack_format": 34,
+    "supported_formats": {"min_inclusive": 30, "max_inclusive": 34},
     "description": "SMP's Revival - 1.21\nhttps://revival.akenland.com"
   }
 }
