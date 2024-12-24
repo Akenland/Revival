@@ -10,12 +10,10 @@ jobs:
     steps:
     - name: Download pack files
       uses: actions/checkout@v4
-    - name: Remove git files
-      run: rm -r ./.git*
     - name: Remove files with uppercase letters
-      run: rm ./*[A-Z]*
+      run: rm ./**[[:upper:]]**
     - name: Zip files
-      run: mkdir out && zip -r out/Revival-20.zip *
+      run: mkdir out && zip -r out/Revival-20.zip assets pack.mcmeta pack.png
     - name: Upload to CDN
       uses: ryand56/r2-upload-action@latest
       with:
