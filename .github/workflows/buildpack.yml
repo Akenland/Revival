@@ -11,7 +11,7 @@ jobs:
     - name: Download pack files
       uses: actions/checkout@v4
     - name: Remove git files
-      run: rm ./.git*
+      run: rm -r ./.git*
     - name: Remove files with uppercase letters
       run: rm ./*[A-Z]*
     - name: Zip files
