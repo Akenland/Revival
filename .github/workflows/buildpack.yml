@@ -10,8 +10,8 @@ jobs:
     steps:
     - name: Download pack files
       uses: actions/checkout@v4
-    - name: Remove files with uppercase letters
-      run: find . -name '*[[:upper:]]*' -type f -delete
+    - name: Remove files with uppercase letters in filepath
+      run: find . -path '*[[:upper:]]*' -type f -delete
     - name: Remove all PSDs
       run: find . -name '*.psd' -type f -delete
     - name: Remove all empty directories
