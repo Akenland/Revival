@@ -11,7 +11,9 @@ jobs:
     - name: Download pack files
       uses: actions/checkout@v4
     - name: Remove files with uppercase letters
-      run: rm ./**[[:upper:]]**
+      run: find . -name '*[[:upper:]]*' -delete
+    - name: Remove all PSDs
+      run: find . -name '*.psd' -delete
     - name: Zip files
       run: mkdir out && zip -r out/Revival-20.zip assets pack.mcmeta pack.png
     - name: Upload to CDN
