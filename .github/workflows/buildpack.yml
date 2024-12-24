@@ -1,0 +1,27 @@
+name: Build pack zip and upload to Revival CDN
+on:
+  push:
+    branches:
+    - '1.20'
+jobs:
+  Build-Pack:
+    name: Build pack zip and upload
+    runs-on: ubuntu-latest
+    steps:
+    - name: Download pack files
+      uses: actions/checkout@v4
+    - name: Remove git files
+      run: rm ./.git*
+    - name: Remove files with uppercase letters
+      run: rm ./*[A-Z]*
+    - name: Zip files
+      run: zip -r out/Revival-20.zip *
+    - name: Upload to CDN
+      uses: ryand56/r2-upload-action@latest
+      with:
+        r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+        r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+        r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+        r2-bucket: revival
+        source-dir: out
+        destination-dir: ./
