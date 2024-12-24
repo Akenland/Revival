@@ -15,7 +15,7 @@ jobs:
     - name: Remove files with uppercase letters
       run: rm ./*[A-Z]*
     - name: Zip files
-      run: zip -r out/Revival-20.zip *
+      run: mkdir out && zip -r out/Revival-20.zip *
     - name: Upload to CDN
       uses: ryand56/r2-upload-action@latest
       with:
