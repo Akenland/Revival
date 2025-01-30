@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/lapis_lazuli",
+    "textures": {
+        "layer0": "akenland:item/warpstones/dead_warp_heart"
+    }
+}

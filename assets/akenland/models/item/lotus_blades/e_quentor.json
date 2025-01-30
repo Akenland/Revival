@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/diamond_sword",
+    "textures": {
+        "layer0": "akenland:item/lotus_blades/e_quentor"
+    }
+}

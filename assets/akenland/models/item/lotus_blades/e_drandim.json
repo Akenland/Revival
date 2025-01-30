@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/iron_sword",
+    "textures": {
+        "layer0": "akenland:item/lotus_blades/e_drandim"
+    }
+}

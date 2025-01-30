@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/stone_sword",
+    "textures": {
+        "layer0": "akenland:item/lotus_blades/e_llymsten"
+    }
+}

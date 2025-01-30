@@ -1,0 +1,6 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "akenland:item/warpstones/dead_warp_heart"
+    }
+}

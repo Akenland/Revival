@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/golden_sword",
+    "textures": {
+        "layer0": "akenland:item/lotus_blades/em_immadi"
+    }
+}
