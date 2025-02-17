@@ -18,6 +18,8 @@ jobs:
       run: find . -empty -type d -delete
     - name: Zip files
       run: mkdir out && zip -r out/Revival-20.zip assets pack.mcmeta pack.png
+    - name: Zip files (custom item pack)
+      run: zip -r out/Akenland-Items.zip assets/akenland pack.mcmeta pack.png
     - name: Upload to CDN
       uses: ryand56/r2-upload-action@latest
       with:
