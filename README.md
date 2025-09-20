@@ -5,6 +5,7 @@ This branch is the **Minecraft 1.20/1.21** version of the pack. [Download here.]
 
 ## External Links
 * [Official Website](https://revival.akenland.com)
+* [Modrinth](https://modrinth.com/resourcepack/smp-revival)
 * [Original Minecraft Forum thread (by SMP)](http://www.minecraftforum.net/forums/mapping-and-modding/resource-packs/1228756-smps-revival-october-20th-2014-1-8-sans-ctm)
 * [New Minecraft Forum thread](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/2822930-new-release-smps-revival-fan-continuation-1-12)
 
@@ -22,3 +23,4 @@ Fan edits and contributions are welcome, please submit them in Issues or email t
 You may not use any part of this pack, edited or not, in any other pack or work.
 
 If you have any questions about these terms, please email us at revival@akenland.com.
+
